@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.menu-flrx {
+    display: flex;
+}
+
 .section1 {
     background-image: url("../assets/h_img.jpg");
     height: 100vh;
