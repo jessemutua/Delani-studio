@@ -1,0 +1,7 @@
+* .section1 {
+    background-image: url("../assets/h_img.jpg");
+    height: 100vh;
+    text-align: center;
+    border: black;
+    background-size: cover;
+}
