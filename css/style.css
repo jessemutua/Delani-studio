@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.menu-flrx {
+.menu-flex {
     display: flex;
 }
 
@@ -30,4 +30,8 @@ html {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 17%;
+}
+
+.sec3 {
+    text-align: center;
 }
