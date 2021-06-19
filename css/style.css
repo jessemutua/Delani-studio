@@ -46,3 +46,12 @@ html {
     width: 100%;
     padding: 5%;
 }
+
+.sec5 {
+    text-align: center;
+    border: white;
+}
+
+.img {
+    column-width: auto;
+}
