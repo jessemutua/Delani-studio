@@ -68,3 +68,20 @@ html {
 .h1p {
     text-align: center;
 }
+
+#overlay,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: royalblue;
+    text-align: center;
+    font-weight: bold;
+}
