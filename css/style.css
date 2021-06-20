@@ -42,7 +42,7 @@ html {
 
 .sec5 {
     background-image: url("/assets/c_image.jpg");
-    height: 50vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -84,4 +84,22 @@ html {
     background-color: royalblue;
     text-align: center;
     font-weight: bold;
+}
+
+#portfolio {
+    margin-right: 16%;
+    margin-left: 8%;
+}
+
+.col-md-3 img {
+    margin: 20px;
+    width: 100%;
+}
+
+.form-control {}
+
+#comment {
+    height: 50vh;
+    margin-left: 4%;
+    width: 85%;
 }
