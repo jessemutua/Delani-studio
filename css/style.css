@@ -58,3 +58,10 @@ html {
 .footer {
     text-align: center;
 }
+
+#produt-icon,
+#development-icon,
+#design-con {
+    display: none;
+    font-size: 16px;
+}
