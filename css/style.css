@@ -59,11 +59,13 @@
         text-align: center;
     }
     
-    #product,
-    #development,
-    #design {
+    .product,
+    .development,
+    .design {
         display: none
     }
+    /* .development {
+        display: none; */
     
     .h1p {
         text-align: center;
@@ -80,7 +82,6 @@
         display: none;
         height: 100vh;
         width: 100%;
-        background-color: transparent;
         text-align: center;
         font-weight: bold;
     }
@@ -130,4 +131,25 @@
         color: skyblue;
         font-weight: bold;
         display: list-item
+    }
+    
+    #MERGE0 {
+        width: 84%;
+        margin-left: 4%;
+        padding-bottom: 10px;
+    }
+    
+    #MERGE1 {
+        width: 100%;
+        margin-left: 4%;
+        margin-bottom: 20px;
+    }
+    
+    .col1 {
+        float: left;
+        width: 50vh;
+    }
+    
+    .col2 {
+        float: right;
     }
