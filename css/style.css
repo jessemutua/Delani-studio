@@ -59,10 +59,16 @@
         text-align: center;
     }
     
-    .product,
-    .development,
-    .design {
-        display: none
+    #par1 {
+        display: none;
+    }
+    
+    #par2 {
+        display: none;
+    }
+    
+    #par3 {
+        display: none;
     }
     /* .development {
         display: none; */
@@ -71,23 +77,34 @@
         text-align: center;
     }
     
-    #overlay,
-    #overlay2,
-    #overlay3,
-    #overlay4,
-    #overlay5,
-    #overlay6,
-    #overlay7,
-    #overlay8 {
-        display: none;
-        height: 100vh;
-        width: 100%;
+    #work1 {
+        position: relative;
+    }
+    
+    #work2 {
+        position: relative;
+    }
+    
+    .paragraph {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
         text-align: center;
         font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .paragraph:hover {
+        opacity: 1;
     }
     
     #portfolio {
-        margin-right: 16%;
+        margin-right: 16px;
         margin-left: 8%;
     }
     
@@ -141,15 +158,26 @@
     
     #MERGE1 {
         width: 100%;
-        margin-left: 4%;
+        /* margin-left: 4%; */
         margin-bottom: 20px;
     }
     
     .col1 {
-        float: left;
         width: 50vh;
     }
     
-    .col2 {
-        float: right;
+    .col2 {}
+    
+    .me {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mes {
+        width: 70%;
+        position: relative;
+        top: 5px;
+        left: 10rem;
+        padding-bottom: 5px;
     }
