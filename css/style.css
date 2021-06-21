@@ -1,105 +1,133 @@
-html {
-    scroll-behavior: smooth;
-}
-
-.menu-flex {
-    display: flex;
-}
-
-.section1 {
-    background-image: url("../assets/h_img.jpg");
-    height: 100vh;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 17%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;
-}
-
-#mouse-click {
-    padding-top: 22px;
-    padding-bottom: 30px;
-}
-
-.sec {
-    background-image: url("/assets/s_image.jpg");
-    height: 50vh;
-    width: 100%;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 17%;
-}
-
-.sec3 {
-    text-align: center;
-}
-
-.sec4 {
-    text-align: center;
-}
-
-.sec5 {
-    background-image: url("/assets/c_image.jpg");
-    height: 100vh;
-    width: 100%;
-}
-
-.sec5 {
-    text-align: center;
-    border: white;
-}
-
-.social {
-    text-align: center;
-}
-
-.footer {
-    text-align: center;
-}
-
-#product,
-#development,
-#design {
-    display: none
-}
-
-.h1p {
-    text-align: center;
-}
-
-#overlay,
-#overlay2,
-#overlay3,
-#overlay4,
-#overlay5,
-#overlay6,
-#overlay7,
-#overlay8 {
-    display: none;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    background-color: royalblue;
-    text-align: center;
-    font-weight: bold;
-}
-
-#portfolio {
-    margin-right: 16%;
-    margin-left: 8%;
-}
-
-.col-md-3 img {
-    margin: 20px;
-    width: 100%;
-}
-
-.form-control {}
-
-#comment {
-    height: 50vh;
-    margin-left: 4%;
-    width: 85%;
-}
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .menu-flex {
+        display: flex;
+    }
+    
+    .section1 {
+        background-image: url("../assets/h_img.jpg");
+        height: 100vh;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 17%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    #mouse-click {
+        padding-top: 22px;
+        padding-bottom: 30px;
+    }
+    
+    .sec {
+        background-image: url("/assets/s_image.jpg");
+        height: 50vh;
+        width: 100%;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 17%;
+    }
+    
+    .sec3 {
+        text-align: center;
+    }
+    
+    .sec4 {
+        text-align: center;
+    }
+    
+    .sec5 {
+        background-image: url("/assets/c_image.jpg");
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .sec5 {
+        text-align: center;
+        border: white;
+    }
+    
+    .social {
+        text-align: center;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
+    #product,
+    #development,
+    #design {
+        display: none
+    }
+    
+    .h1p {
+        text-align: center;
+    }
+    
+    #overlay,
+    #overlay2,
+    #overlay3,
+    #overlay4,
+    #overlay5,
+    #overlay6,
+    #overlay7,
+    #overlay8 {
+        display: none;
+        height: 100vh;
+        width: 100%;
+        background-color: transparent;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #portfolio {
+        margin-right: 16%;
+        margin-left: 8%;
+    }
+    
+    .col-md-3 img {
+        margin: 20px;
+        width: 100%;
+    }
+    
+    #comment {
+        height: 50vh;
+        margin-left: 4%;
+        width: 85%;
+    }
+    
+    #MERGE0 {
+        width: 84%;
+        margin-left: 4%;
+        padding-bottom: 10px;
+    }
+    
+    input[type=text],
+    input[type=email],
+    #comment {
+        background: transparent;
+        color: white;
+        font-size: 20px;
+        font-family: 'Copse', serif;
+    }
+    
+    .form-control {
+        color: white;
+    }
+    
+    #MERGE1 {
+        width: 30%;
+        margin-left: 18%;
+        margin-right: 30px;
+    }
+    
+    .text {
+        color: skyblue;
+        font-weight: bold;
+        display: list-item
+    }

@@ -1,11 +1,11 @@
 $(document).ready(function() {
-    $("#development-icon").click(function() {
-        $("#development-icon").slideDown('1500').hide('1000')
-        $("#development").show('1500')
+    $("#dev-icon").click(function() {
+        $("#dev-icon").slideDown('1500').hide('1000')
+        $("#par").show('1500')
     });
-    $("#development").click(function() {
-        $("#development").slideUp('1500');
-        $("#development-icon").slideDown('1500');
+    $("#par").click(function() {
+        $("#par").slideUp('1500');
+        $("#dev-icon").slideDown('1500');
     });
 });
 
@@ -58,5 +58,33 @@ $(document).ready(function() {
         $("#overlay4").show();
     }).mouseout(function() {
         $("#overlay4").hide();
+    });
+});
+$(document).ready(function() {
+    $("#work5").mouseover(function() {
+        $("#overlay5").show();
+    }).mouseout(function() {
+        $("#overlay5").hide();
+    });
+});
+$(document).ready(function() {
+    $("#work6").mouseover(function() {
+        $("#overlay6").show();
+    }).mouseout(function() {
+        $("#overlay6").hide();
+    });
+});
+$(document).ready(function() {
+    $("#work7").mouseover(function() {
+        $("#overlay7").show();
+    }).mouseout(function() {
+        $("#overlay7").hide();
+    });
+});
+$(document).ready(function() {
+    $("#work8").mouseover(function() {
+        $("#overlay8").show();
+    }).mouseout(function() {
+        $("#overlay8").hide();
     });
 });
